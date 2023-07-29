@@ -2,7 +2,7 @@
 
 # Lava Jato do Val - Landing Page
 
-![Lava Jato do Val](link_para_imagem)
+![Lava Jato do Val]([link_para_imagem](https://lucasdeo1.github.io/LavaJatoOficial/))
 
 ## Descrição do Projeto
 
@@ -10,7 +10,7 @@ Este projeto é uma Landing Page para a empresa de lava jato "Lava Jato do Val".
 
 ## Visualização Online
 
-Você pode visualizar a Landing Page online através do link: [Lava Jato do Val - Landing Page](link_para_a_landing_page)
+Você pode visualizar a Landing Page online através do link: [Lava Jato do Val - Landing Page]([link_para_a_landing_page](https://lucasdeo1.github.io/LavaJatoOficial/))
 
 ## Tecnologias Utilizadas
 
