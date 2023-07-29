@@ -1,0 +1,274 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color:white;
+    background-color: black;
+}
+
+.container {
+    max-width: 1200px;
+    min-width: 300px;
+    margin: 60px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    width: 90%;
+}
+
+header H1 {
+    font-size: 20px;
+}
+
+
+
+header nav ul li {
+    list-style-type: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    margin: 7px;
+    color: white;
+}
+
+header nav ul li a:hover {
+    color:rgb(96, 200, 231); 
+    text-decoration: underline;
+}
+
+section {
+    text-align: center;
+    padding: 60px;
+}
+
+section aside {
+    display: inline;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between
+    /*background-color: rgba(255, 0, 0, 0.356);*/;
+    /* width: 100% */
+}
+
+section aside p {
+    line-height: 30pt;/*ajustar espaçamento entre palavras*/
+    font-size: 40px;
+    position: relative;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    text-shadow: 1px 2px rgb(0, 0, 0);
+}
+
+section article img {
+    width: 100%;
+}
+
+section img {
+    width: 65%;
+}
+
+section aside p span {
+    color:rgb(6, 192, 238);
+    text-shadow: 2px 2px rgb(255, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+}
+
+main {
+    background-color: white;
+    color: black;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+main .valores {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+main div h1 {
+    padding: 30px;
+}
+
+.quadro h3 {
+    padding: 10px;
+    font-size: 30px;
+}
+
+.quadro {
+    /*display: flex;
+    flex-direction: column;
+    flex: 1;
+    border: 1px solid rgb(6, 192, 238);
+    padding: 15px;*/
+    position: relative;
+    /*background-color: #f0f0f0;*/
+    background-color:  rgba(6, 192, 238, 0.411);
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    color: black;
+    text-shadow: 1px black;
+    font-weight: bold;
+}
+
+.quadro::before {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    border-width: 8px;
+    border-style: solid;
+    /*border-color: transparent transparent #f0f0f0 transparent;*/
+    border-color: transparent transparent rgba(6, 192, 238, 0.411) transparent;
+}
+
+.quadro p {
+    font-size: 15px;
+}
+
+.containers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2rem;
+}
+  
+.frases {
+    width: 50%;
+    padding-right: 20px;
+}
+  
+.frases h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.frases p {
+    font-size: 16px;
+}
+  
+.form {
+    width: 40%;
+    border: 1px solid ;
+}
+  
+form h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+  
+/* CSS adicional para tornar a imagem responsiva */
+.frases img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px; /* Adicione o espaço desejado entre a imagem e o formulário */
+}
+  
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid rgb(6, 192, 238);
+}
+  
+/*label {
+    margin-bottom: 5px;
+    background-color: rgb(6, 192, 238);
+}*/
+  
+input{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: 1px solid rgb(6, 192, 238);
+
+}
+  
+button {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+button:active {
+    transform: scale(0.95); /* Diminui ligeiramente o tamanho do botão ao ser clicado */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra ao ser clicado */
+    outline: none; /* Remove a borda de foco padrão */
+    background-color: #0066cc60;
+
+    
+}
+
+/*---------------------------------footer*/
+.footer {
+    background-color: black;
+    padding: 40px 0;
+    text-align: center;
+}
+  
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+  
+.footer-address, .footer-contact, .footer-social {
+    width: 30%;
+    text-align: left;
+}
+  
+.footer-address h3, .footer-contact h3, .footer-social h3 {
+    border-bottom: 1px solid #333;
+    padding: 10px;
+}
+  
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+}
+  
+.footer-social li {
+    margin-bottom: 10px;
+    color: white;
+    list-style-type: none;
+}
+
+.footer-social li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-social li a:hover {
+    text-decoration: underline;
+    color:rgb(96, 200, 231) ;
+  }
+
+  
+.footer-copy {
+    margin-top: 20px;
+}
+  
+
+
