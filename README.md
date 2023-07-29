@@ -1,5 +1,3 @@
-# LavaJatoOficial
-
 # Lava Jato do Val - Landing Page
 
 ## Descrição do Projeto
