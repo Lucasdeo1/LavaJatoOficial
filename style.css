@@ -198,9 +198,23 @@ input {
 .order-first{
     /*background-color: red;*/
     margin: 40px;
-
 }
  
+
+.col form button {
+    border-radius: 10px;
+    box-shadow: 2px 2px black;
+}
+
+.col form button:hover {
+    background-color: rgba(255, 0, 0, 0.747);
+    
+}
+
+.col form button:active {
+    box-shadow: none;
+}
+
 
 /*---------------------------------footer*/
 .footer {
