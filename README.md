@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# LavaJatoweb
-=======
+
 # Lava Jato do Val - Landing Page
 
 ## Descrição do Projeto
@@ -46,5 +44,4 @@ Se você deseja contribuir para o projeto, siga os passos abaixo:
 
 Lucas Deodato - linkedin : https://www.linkedin.com/in/lucas-deodato-467b1b162/
 
-.
->>>>>>> 0ddb8fa6258d25795ba49195c1823324763a442a
+
